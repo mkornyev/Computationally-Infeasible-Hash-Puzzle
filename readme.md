@@ -1,12 +1,12 @@
-# Hash-Based Ethereum Smart Contract 
+# Computationally Infeasible Hash-Puzzle :: Ethereum Smart Contract 
 
-The contract allows the user to place a wager and difficulty that diminish exponentionally every hour.
+The contract allows a user to place a wager and difficulty that diminish exponentionally every hour for all participants.
 
 # Getting started
 
 Pay a wager to the constructor, along with a specified difficulty. 
 
-* A difficulty is the number of leading zeroes necessary for any hash output. (An input of 0 would constitute an infinite number of hash inputs)
+* A difficulty is the number of leading zeroes necessary for any hash output. (An input of 0 would constitute an infinite number of hash inputs) --> Computed like SHA256(nonce) = 0x0001fG7h23jjsa...
 
 Have your friends try and find nonces that result in leading zeroes, and test them in the claim() function. 
 
